@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|e:\\second_course_second_semester\\\u043C\u0434\u043A 05.02\\sharp\\my_fucking_project\\windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\windowsformsapp1\\formcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD70FA7-C01C-4D69-8640-A1E8EED4ED0B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
+              "ToolTip": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:10:07.554Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:27:05.733Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Form2.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form2.cs",
+              "ToolTip": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Form2.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form2.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:03:19.585Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Form3.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form3.cs",
+              "ToolTip": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\Form3.cs*",
+              "RelativeToolTip": "WindowsFormsApp1\\Form3.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwDgAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:34:45.614Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCreator.cs",
+              "DocumentMoniker": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\FormCreator.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCreator.cs",
+              "ToolTip": "E:\\SECOND_COURSE_SECOND_SEMESTER\\\u041C\u0414\u041A 05.02\\SHARP\\MY_FUCKING_PROJECT\\WindowsFormsApp1\\FormCreator.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\FormCreator.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T11:45:30.79Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
