@@ -40,12 +40,13 @@ namespace WindowsFormsApp1
             return label;
         }
 
-        protected TextBox CreateTextBox(string text, Point location, int width = 100)
+        protected TextBox CreateTextBox(string text, Point location, int width = 100, int heigth = 100)
         {
             TextBox textBox = new TextBox();
             textBox.Text = text;
             textBox.Location = location;
             textBox.Width = width;
+            textBox.Height = heigth;
 
             return textBox;
         }

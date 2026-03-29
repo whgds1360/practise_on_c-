@@ -73,8 +73,8 @@ namespace WindowsFormsApp1
         private void NextFormHandler(object sender, EventArgs e)
         {
             this.Hide();
-            //var form4 = new Form4();
-            //form4.Show();
+            var form4 = new Form4();
+            form4.Show();
         }
 
         private void BackFormHandler(object sender, EventArgs e)
