@@ -1,25 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Security.Cryptography;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public abstract partial class FormCreator : Form
-    {   
-        protected const int DefaultWidth = 800;
-        protected const int DefaultHeight = 800;
+    public interface IFormCreator
+    {
+        Button CreateButton(string text, Point location, EventHandler handler);
+        Label CreateLabel(string text, Point location, bool autoSize = true);
+        TextBox CreateTextBox(string text, Point location, int width = 100, int heigth = 100);
+        List<Button> CreateNavigation(Point location, EventHandler handler1 = null, EventHandler handler2 = null);
+    }
+    public abstract class FormCreator : Form, IFormCreator
+    {
+        public const int DefaultWidth = 800;
+        public const int DefaultHeight = 800;
 
-        public FormCreator()
+        protected FormCreator()
         {
             this.Width = DefaultWidth;
             this.Height = DefaultHeight;
             this.StartPosition = FormStartPosition.CenterScreen;
         }
-
         protected abstract void CreateControls();
 
-        protected Button CreateButton(string text, Point location, EventHandler handler)
+        public Button CreateButton(string text, Point location, EventHandler handler)
         {
             Button button = new Button();
             button.Text = text;
@@ -30,7 +37,7 @@ namespace WindowsFormsApp1
             return button;
         }
 
-        protected Label CreateLabel(string text, Point location, bool autoSize = true)
+        public Label CreateLabel(string text, Point location, bool autoSize = true)
         {
             Label label = new Label();
             label.Text = text;
@@ -40,7 +47,7 @@ namespace WindowsFormsApp1
             return label;
         }
 
-        protected TextBox CreateTextBox(string text, Point location, int width = 100, int heigth = 100)
+        public TextBox CreateTextBox(string text, Point location, int width = 100, int heigth = 100)
         {
             TextBox textBox = new TextBox();
             textBox.Text = text;
@@ -51,7 +58,7 @@ namespace WindowsFormsApp1
             return textBox;
         }
 
-        protected List<Button> CreateNavigation(Point location, EventHandler handler1 = null, EventHandler handler2 = null)
+        public List<Button> CreateNavigation(Point location, EventHandler handler1 = null, EventHandler handler2 = null)
         {
             Button button1 = new Button();
             button1.Text = "Следующая";
@@ -68,20 +75,6 @@ namespace WindowsFormsApp1
             var data = new List<Button> { button1, button2 };
 
             return data;
-        }
-
-        protected void SwitchToForm(Form newForm, bool closeCurrent = true)
-        {
-            if (closeCurrent)
-            {
-                newForm.Show();
-                this.Close();
-            }
-            else
-            {
-                newForm.Show();
-                this.Hide();
-            }
         }
     }
 }

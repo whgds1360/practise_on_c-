@@ -28,3 +28,5 @@ E:\practise_on_c-\МДК\ЛАЗАРУС 1 ЛАБА\WindowsFormsApp1\obj\Debug\Wi
 E:\practise_on_c-\МДК\ЛАЗАРУС 1 ЛАБА\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 E:\practise_on_c-\МДК\ЛАЗАРУС 1 ЛАБА\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\practise_on_c-\МДК\ЛАЗАРУС 1 ЛАБА\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\practise_on_c-\МДК\ЛАЗАРУС 1 ЛАБА\WindowsFormsApp1\bin\Debug\System.dll
+E:\practise_on_c-\МДК\ЛАЗАРУС 1 ЛАБА\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date

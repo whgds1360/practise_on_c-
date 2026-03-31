@@ -26,40 +26,6 @@ namespace WindowsFormsApp1
             CreateAllElement();
             CreateControls();
         }
-
-        protected override void CreateControls()
-        {
-            this.Controls.Add(Label1);
-            this.Controls.Add(Label2);
-
-            this.Controls.Add(TextBox1);
-            this.Controls.Add(TextBox2);
-
-            this.Controls.Add(ButtonSwap);
-            this.Controls.Add(ButtonNext);
-            this.Controls.Add(ButtonBack);
-
-        }
-
-        private void CreateAllElement()
-        {
-            Label1 = this.CreateLabel(text: "Первое число", location: new Point(350, 200));
-            Label2 = this.CreateLabel(text: "Второе число", location: new Point(450, 200));
-
-            TextBox1 = this.CreateTextBox(text: "", location: new Point(350, 300));
-            TextBox2 = this.CreateTextBox(text: "", location: new Point(450, 300));
-
-            ButtonSwap = this.CreateButton(text: "Свапнуть", location: new Point(500, 400), handler: SwapHandler);
-            
-            var buttons = this.CreateNavigation(
-                location: new Point(400, 650), 
-                handler1: NextFormHandler, 
-                handler2: BackFormHandler);
-
-            ButtonNext = buttons[0];
-            ButtonBack = buttons[1];
-        }
-
         private void SwapHandler(object sender, EventArgs e)
         {
             (TextBox1.Text, TextBox2.Text) = (TextBox2.Text, TextBox1.Text);
