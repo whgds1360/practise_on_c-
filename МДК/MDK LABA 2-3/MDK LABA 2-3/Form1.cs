@@ -12,7 +12,7 @@ namespace MDK_LABA_2_3
             var form2 = new Form2();
 
             // Настройки для встраивания
-            form2.TopLevel = false;        // Убираем "верхнеуровневость"
+            form2.TopLevel = false;        // "верхнеуровневость" убирает
             form2.FormBorderStyle = FormBorderStyle.None;
             form2.Dock = DockStyle.Fill;    // Растягиваем на всю панель
 
@@ -20,6 +20,36 @@ namespace MDK_LABA_2_3
 
             CenterPanel.Controls.Add(form2);
             form2.Show();
+        }
+
+        private void ClickTask2Handler(object sender, EventArgs e)
+        {
+            var form3 = new Form3();
+
+            // Настройки для встраивания
+            form3.TopLevel = false;        // "верхнеуровневость" убирает
+            form3.FormBorderStyle = FormBorderStyle.None;
+            form3.Dock = DockStyle.Fill;    // Растягиваем на всю панель
+
+            CenterPanel.Controls.Clear();
+
+            CenterPanel.Controls.Add(form3);
+            form3.Show();
+        }
+
+        private void ClickTask3Handler(object sender, EventArgs e)
+        {
+            var form4 = new Form4();
+
+            // Настройки для встраивания
+            form4.TopLevel = false;        // "верхнеуровневость" убирает
+            form4.FormBorderStyle = FormBorderStyle.None;
+            form4.Dock = DockStyle.Fill;    // Растягиваем на всю панель
+
+            CenterPanel.Controls.Clear();
+
+            CenterPanel.Controls.Add(form4);
+            form4.Show();
         }
 
         private void EnterMouse(object sender, EventArgs e)
@@ -61,6 +91,11 @@ namespace MDK_LABA_2_3
         private void ExitHandeler(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BackLigthTask3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

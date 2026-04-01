@@ -35,26 +35,26 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             ButtonExit = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             BackLigthTask3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             BackLigthTask2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             BackLigthTask1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ButtonTask3 = new Guna.UI2.WinForms.Guna2Button();
             ButtonTask2 = new Guna.UI2.WinForms.Guna2Button();
             ButtonTask1 = new Guna.UI2.WinForms.Guna2Button();
-            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             label1 = new Label();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             CenterPanel = new Guna.UI2.WinForms.Guna2Panel();
@@ -64,6 +64,7 @@
             // 
             // guna2BorderlessForm1
             // 
+            guna2BorderlessForm1.BorderRadius = 30;
             guna2BorderlessForm1.ContainerControl = this;
             guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             guna2BorderlessForm1.TransparentWhileDrag = true;
@@ -75,9 +76,10 @@
             guna2Panel1.CustomizableEdges = customizableEdges13;
             guna2Panel1.Dock = DockStyle.Top;
             guna2Panel1.Location = new Point(0, 0);
+            guna2Panel1.Margin = new Padding(3, 2, 3, 2);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2Panel1.Size = new Size(800, 34);
+            guna2Panel1.Size = new Size(700, 39);
             guna2Panel1.TabIndex = 0;
             // 
             // ButtonExit
@@ -92,10 +94,11 @@
             ButtonExit.FillColor = Color.Black;
             ButtonExit.Font = new Font("Unispace", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ButtonExit.ForeColor = Color.White;
-            ButtonExit.Location = new Point(752, 0);
+            ButtonExit.Location = new Point(657, 1);
+            ButtonExit.Margin = new Padding(3, 2, 3, 2);
             ButtonExit.Name = "ButtonExit";
             ButtonExit.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            ButtonExit.Size = new Size(48, 40);
+            ButtonExit.Size = new Size(43, 34);
             ButtonExit.TabIndex = 0;
             ButtonExit.Text = "🗙";
             ButtonExit.TextAlign = HorizontalAlignment.Left;
@@ -104,42 +107,58 @@
             // guna2Panel2
             // 
             guna2Panel2.BackColor = Color.Black;
+            guna2Panel2.Controls.Add(guna2HtmlLabel2);
             guna2Panel2.Controls.Add(BackLigthTask3);
             guna2Panel2.Controls.Add(BackLigthTask2);
             guna2Panel2.Controls.Add(BackLigthTask1);
             guna2Panel2.Controls.Add(ButtonTask3);
             guna2Panel2.Controls.Add(ButtonTask2);
             guna2Panel2.Controls.Add(ButtonTask1);
-            guna2Panel2.Controls.Add(guna2HtmlLabel2);
             guna2Panel2.Controls.Add(label1);
             guna2Panel2.Controls.Add(guna2HtmlLabel1);
             guna2Panel2.CustomizableEdges = customizableEdges9;
             guna2Panel2.Dock = DockStyle.Left;
-            guna2Panel2.Location = new Point(0, 34);
+            guna2Panel2.Location = new Point(0, 39);
+            guna2Panel2.Margin = new Padding(3, 2, 3, 2);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel2.Size = new Size(243, 416);
+            guna2Panel2.Size = new Size(213, 299);
             guna2Panel2.TabIndex = 1;
+            // 
+            // guna2HtmlLabel2
+            // 
+            guna2HtmlLabel2.AutoSize = false;
+            guna2HtmlLabel2.BackColor = Color.Transparent;
+            guna2HtmlLabel2.BackgroundImage = (Image)resources.GetObject("guna2HtmlLabel2.BackgroundImage");
+            guna2HtmlLabel2.Location = new Point(57, 0);
+            guna2HtmlLabel2.Margin = new Padding(3, 2, 3, 2);
+            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            guna2HtmlLabel2.Size = new Size(94, 99);
+            guna2HtmlLabel2.TabIndex = 1;
+            guna2HtmlLabel2.Text = null;
             // 
             // BackLigthTask3
             // 
             BackLigthTask3.AutoSize = false;
             BackLigthTask3.BackColor = Color.Black;
             BackLigthTask3.ForeColor = Color.White;
-            BackLigthTask3.Location = new Point(0, 359);
+            BackLigthTask3.Location = new Point(0, 232);
+            BackLigthTask3.Margin = new Padding(3, 2, 3, 2);
             BackLigthTask3.Name = "BackLigthTask3";
-            BackLigthTask3.Size = new Size(15, 56);
+            BackLigthTask3.Size = new Size(13, 42);
             BackLigthTask3.TabIndex = 5;
             BackLigthTask3.Text = null;
+            BackLigthTask3.Click += BackLigthTask3_Click;
             // 
             // BackLigthTask2
             // 
             BackLigthTask2.AutoSize = false;
             BackLigthTask2.BackColor = Color.Black;
             BackLigthTask2.ForeColor = Color.White;
-            BackLigthTask2.Location = new Point(0, 303);
+            BackLigthTask2.Location = new Point(0, 189);
+            BackLigthTask2.Margin = new Padding(3, 2, 3, 2);
             BackLigthTask2.Name = "BackLigthTask2";
-            BackLigthTask2.Size = new Size(15, 56);
+            BackLigthTask2.Size = new Size(13, 42);
             BackLigthTask2.TabIndex = 4;
             BackLigthTask2.Text = null;
             // 
@@ -148,9 +167,10 @@
             BackLigthTask1.AutoSize = false;
             BackLigthTask1.BackColor = Color.Black;
             BackLigthTask1.ForeColor = Color.White;
-            BackLigthTask1.Location = new Point(0, 252);
+            BackLigthTask1.Location = new Point(0, 143);
+            BackLigthTask1.Margin = new Padding(3, 2, 3, 2);
             BackLigthTask1.Name = "BackLigthTask1";
-            BackLigthTask1.Size = new Size(15, 56);
+            BackLigthTask1.Size = new Size(13, 42);
             BackLigthTask1.TabIndex = 0;
             BackLigthTask1.Text = null;
             // 
@@ -164,12 +184,14 @@
             ButtonTask3.FillColor = Color.Black;
             ButtonTask3.Font = new Font("Unispace", 16.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ButtonTask3.ForeColor = Color.White;
-            ButtonTask3.Location = new Point(0, 359);
+            ButtonTask3.Location = new Point(0, 232);
+            ButtonTask3.Margin = new Padding(3, 2, 3, 2);
             ButtonTask3.Name = "ButtonTask3";
             ButtonTask3.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            ButtonTask3.Size = new Size(243, 56);
+            ButtonTask3.Size = new Size(213, 42);
             ButtonTask3.TabIndex = 3;
             ButtonTask3.Text = "ЗАДАНИЕ 3";
+            ButtonTask3.Click += ClickTask3Handler;
             ButtonTask3.MouseEnter += EnterMouse;
             ButtonTask3.MouseLeave += LeaveMouse;
             // 
@@ -183,12 +205,14 @@
             ButtonTask2.FillColor = Color.Black;
             ButtonTask2.Font = new Font("Unispace", 16.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ButtonTask2.ForeColor = Color.White;
-            ButtonTask2.Location = new Point(0, 303);
+            ButtonTask2.Location = new Point(0, 189);
+            ButtonTask2.Margin = new Padding(3, 2, 3, 2);
             ButtonTask2.Name = "ButtonTask2";
             ButtonTask2.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            ButtonTask2.Size = new Size(243, 56);
+            ButtonTask2.Size = new Size(213, 42);
             ButtonTask2.TabIndex = 2;
             ButtonTask2.Text = "ЗАДАНИЕ 2";
+            ButtonTask2.Click += ClickTask2Handler;
             ButtonTask2.MouseEnter += EnterMouse;
             ButtonTask2.MouseLeave += LeaveMouse;
             // 
@@ -202,34 +226,24 @@
             ButtonTask1.FillColor = Color.Black;
             ButtonTask1.Font = new Font("Unispace", 16.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ButtonTask1.ForeColor = Color.White;
-            ButtonTask1.Location = new Point(0, 252);
+            ButtonTask1.Location = new Point(0, 143);
+            ButtonTask1.Margin = new Padding(3, 2, 3, 2);
             ButtonTask1.Name = "ButtonTask1";
             ButtonTask1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            ButtonTask1.Size = new Size(243, 56);
+            ButtonTask1.Size = new Size(213, 42);
             ButtonTask1.TabIndex = 0;
             ButtonTask1.Text = "ЗАДАНИЕ 1";
             ButtonTask1.Click += ClickTask1Handler;
             ButtonTask1.MouseEnter += EnterMouse;
             ButtonTask1.MouseLeave += LeaveMouse;
             // 
-            // guna2HtmlLabel2
-            // 
-            guna2HtmlLabel2.AutoSize = false;
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.BackgroundImage = (Image)resources.GetObject("guna2HtmlLabel2.BackgroundImage");
-            guna2HtmlLabel2.Location = new Point(21, 0);
-            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(200, 200);
-            guna2HtmlLabel2.TabIndex = 1;
-            guna2HtmlLabel2.Text = null;
-            // 
             // label1
             // 
             label1.Font = new Font("Unispace", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(0, 188);
+            label1.Location = new Point(0, 101);
             label1.Name = "label1";
-            label1.Size = new Size(243, 50);
+            label1.Size = new Size(213, 38);
             label1.TabIndex = 0;
             label1.Text = "whgds1360";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -237,7 +251,8 @@
             // guna2HtmlLabel1
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Location = new Point(44, 33);
+            guna2HtmlLabel1.Location = new Point(38, 25);
+            guna2HtmlLabel1.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             guna2HtmlLabel1.Size = new Size(3, 2);
             guna2HtmlLabel1.TabIndex = 0;
@@ -248,21 +263,23 @@
             CenterPanel.BackColor = Color.Black;
             CenterPanel.CustomizableEdges = customizableEdges1;
             CenterPanel.Dock = DockStyle.Fill;
-            CenterPanel.Location = new Point(243, 34);
+            CenterPanel.Location = new Point(213, 39);
+            CenterPanel.Margin = new Padding(3, 2, 3, 2);
             CenterPanel.Name = "CenterPanel";
             CenterPanel.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            CenterPanel.Size = new Size(557, 416);
+            CenterPanel.Size = new Size(487, 299);
             CenterPanel.TabIndex = 2;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(CenterPanel);
             Controls.Add(guna2Panel2);
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             guna2Panel1.ResumeLayout(false);

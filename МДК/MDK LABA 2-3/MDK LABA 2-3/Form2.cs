@@ -15,19 +15,15 @@ namespace MDK_LABA_2_3
             InitializeComponent();
         }
 
-        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+       private void ExecuteHandler(object sender, EventArgs e)
         {
+            double.TryParse(TextBoxA.Text, out double A);
+            double.TryParse(TextBoxB.Text, out double B);
+            double.TryParse(TextBoxT.Text, out double T);
 
-        }
+            double Result = Math.Pow(Math.E, B*T*-1) * Math.Sin(A*T + B) - Math.Sqrt(Math.Abs(B*T+A));
 
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
-        {
-
+            TextBoxResult.Text = Result.ToString();
         }
     }
 }

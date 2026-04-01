@@ -22,3 +22,5 @@ E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK
 E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.genruntimeconfig.cache
 E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\ref\MDK LABA 2-3.dll
 E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form2.resources
+E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form3.resources
+E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form4.resources

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MDK LABA 2-3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec068e88cc512970639f6e7920e420372a3998ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6843fe399579b93679c58ed2d448c41481202abd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MDK LABA 2-3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MDK LABA 2-3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
