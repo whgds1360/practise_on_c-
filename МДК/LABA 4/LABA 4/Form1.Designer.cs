@@ -93,7 +93,7 @@
             ButtonSquare = new Guna.UI2.WinForms.Guna2Button();
             ButtonRoot = new Guna.UI2.WinForms.Guna2Button();
             ButtonClearAll = new Guna.UI2.WinForms.Guna2Button();
-            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            LabelOutput = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             SuspendLayout();
             // 
@@ -120,6 +120,8 @@
             ButtonZero.ShadowDecoration.CustomizableEdges = customizableEdges42;
             ButtonZero.Size = new Size(88, 71);
             ButtonZero.TabIndex = 0;
+            ButtonZero.Tag = "0";
+            ButtonZero.Click += _ClickNumberButtonHandler;
             // 
             // ButtonPlus
             // 
@@ -137,6 +139,7 @@
             ButtonPlus.ShadowDecoration.CustomizableEdges = customizableEdges40;
             ButtonPlus.Size = new Size(88, 71);
             ButtonPlus.TabIndex = 2;
+            ButtonPlus.Click += _SelectOperationHandler;
             // 
             // ButtonSeparator
             // 
@@ -175,6 +178,7 @@
             ButtonExecute.ShadowDecoration.CustomizableEdges = customizableEdges36;
             ButtonExecute.Size = new Size(88, 71);
             ButtonExecute.TabIndex = 11;
+            ButtonExecute.Click += _ExecuteHandler;
             // 
             // ButtonMinus
             // 
@@ -194,6 +198,7 @@
             ButtonMinus.ShadowDecoration.CustomizableEdges = customizableEdges28;
             ButtonMinus.Size = new Size(87, 71);
             ButtonMinus.TabIndex = 15;
+            ButtonMinus.Click += _SelectOperationHandler;
             // 
             // ButtonTwo
             // 
@@ -211,6 +216,8 @@
             ButtonTwo.ShadowDecoration.CustomizableEdges = customizableEdges30;
             ButtonTwo.Size = new Size(88, 71);
             ButtonTwo.TabIndex = 14;
+            ButtonTwo.Tag = "2";
+            ButtonTwo.Click += _ClickNumberButtonHandler;
             // 
             // ButtonThree
             // 
@@ -228,6 +235,8 @@
             ButtonThree.ShadowDecoration.CustomizableEdges = customizableEdges32;
             ButtonThree.Size = new Size(88, 71);
             ButtonThree.TabIndex = 13;
+            ButtonThree.Tag = "3";
+            ButtonThree.Click += _ClickNumberButtonHandler;
             // 
             // ButtonOne
             // 
@@ -245,6 +254,8 @@
             ButtonOne.ShadowDecoration.CustomizableEdges = customizableEdges34;
             ButtonOne.Size = new Size(88, 71);
             ButtonOne.TabIndex = 12;
+            ButtonOne.Tag = "1";
+            ButtonOne.Click += _ClickNumberButtonHandler;
             // 
             // ButtonMultiplication
             // 
@@ -263,6 +274,7 @@
             ButtonMultiplication.ShadowDecoration.CustomizableEdges = customizableEdges20;
             ButtonMultiplication.Size = new Size(88, 71);
             ButtonMultiplication.TabIndex = 19;
+            ButtonMultiplication.Click += _SelectOperationHandler;
             // 
             // ButtonFive
             // 
@@ -280,6 +292,8 @@
             ButtonFive.ShadowDecoration.CustomizableEdges = customizableEdges22;
             ButtonFive.Size = new Size(88, 71);
             ButtonFive.TabIndex = 18;
+            ButtonFive.Tag = "5";
+            ButtonFive.Click += _ClickNumberButtonHandler;
             // 
             // ButtonSix
             // 
@@ -297,6 +311,8 @@
             ButtonSix.ShadowDecoration.CustomizableEdges = customizableEdges24;
             ButtonSix.Size = new Size(88, 71);
             ButtonSix.TabIndex = 17;
+            ButtonSix.Tag = "6";
+            ButtonSix.Click += _ClickNumberButtonHandler;
             // 
             // ButtonFour
             // 
@@ -314,6 +330,8 @@
             ButtonFour.ShadowDecoration.CustomizableEdges = customizableEdges26;
             ButtonFour.Size = new Size(88, 71);
             ButtonFour.TabIndex = 16;
+            ButtonFour.Tag = "4";
+            ButtonFour.Click += _ClickNumberButtonHandler;
             // 
             // ButtonDivision
             // 
@@ -331,6 +349,7 @@
             ButtonDivision.ShadowDecoration.CustomizableEdges = customizableEdges12;
             ButtonDivision.Size = new Size(88, 71);
             ButtonDivision.TabIndex = 23;
+            ButtonDivision.Click += _SelectOperationHandler;
             // 
             // ButtonEigth
             // 
@@ -348,6 +367,8 @@
             ButtonEigth.ShadowDecoration.CustomizableEdges = customizableEdges14;
             ButtonEigth.Size = new Size(88, 71);
             ButtonEigth.TabIndex = 22;
+            ButtonEigth.Tag = "8";
+            ButtonEigth.Click += _ClickNumberButtonHandler;
             // 
             // ButtonNine
             // 
@@ -365,6 +386,8 @@
             ButtonNine.ShadowDecoration.CustomizableEdges = customizableEdges16;
             ButtonNine.Size = new Size(88, 71);
             ButtonNine.TabIndex = 21;
+            ButtonNine.Tag = "9";
+            ButtonNine.Click += _ClickNumberButtonHandler;
             // 
             // ButtonSeven
             // 
@@ -382,6 +405,8 @@
             ButtonSeven.ShadowDecoration.CustomizableEdges = customizableEdges18;
             ButtonSeven.Size = new Size(88, 71);
             ButtonSeven.TabIndex = 20;
+            ButtonSeven.Tag = "7";
+            ButtonSeven.Click += _ClickNumberButtonHandler;
             // 
             // ButtonClear
             // 
@@ -399,6 +424,7 @@
             ButtonClear.ShadowDecoration.CustomizableEdges = customizableEdges4;
             ButtonClear.Size = new Size(88, 71);
             ButtonClear.TabIndex = 27;
+            ButtonClear.Click += _FormaterLabel;
             // 
             // ButtonSquare
             // 
@@ -416,6 +442,7 @@
             ButtonSquare.ShadowDecoration.CustomizableEdges = customizableEdges6;
             ButtonSquare.Size = new Size(88, 71);
             ButtonSquare.TabIndex = 26;
+            ButtonSquare.Click += _SelectOperationHandler;
             // 
             // ButtonRoot
             // 
@@ -433,6 +460,7 @@
             ButtonRoot.ShadowDecoration.CustomizableEdges = customizableEdges8;
             ButtonRoot.Size = new Size(88, 71);
             ButtonRoot.TabIndex = 25;
+            ButtonRoot.Click += _SelectOperationHandler;
             // 
             // ButtonClearAll
             // 
@@ -450,19 +478,20 @@
             ButtonClearAll.ShadowDecoration.CustomizableEdges = customizableEdges10;
             ButtonClearAll.Size = new Size(88, 71);
             ButtonClearAll.TabIndex = 24;
+            ButtonClearAll.Click += _FormaterLabel;
             // 
-            // guna2HtmlLabel1
+            // LabelOutput
             // 
-            guna2HtmlLabel1.AutoSize = false;
-            guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            guna2HtmlLabel1.ForeColor = Color.White;
-            guna2HtmlLabel1.Location = new Point(12, 163);
-            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(353, 88);
-            guna2HtmlLabel1.TabIndex = 28;
-            guna2HtmlLabel1.Text = "\r\n";
-            guna2HtmlLabel1.TextAlignment = ContentAlignment.TopRight;
+            LabelOutput.AutoSize = false;
+            LabelOutput.BackColor = Color.Transparent;
+            LabelOutput.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            LabelOutput.ForeColor = Color.White;
+            LabelOutput.Location = new Point(12, 163);
+            LabelOutput.Name = "LabelOutput";
+            LabelOutput.Size = new Size(353, 88);
+            LabelOutput.TabIndex = 28;
+            LabelOutput.Text = "\r\n";
+            LabelOutput.TextAlignment = ContentAlignment.TopRight;
             // 
             // guna2Button1
             // 
@@ -483,7 +512,7 @@
             guna2Button1.Size = new Size(45, 45);
             guna2Button1.TabIndex = 29;
             guna2Button1.Text = "✖";
-            guna2Button1.Click += guna2Button1_Click;
+            guna2Button1.Click += _CloseHandler;
             // 
             // MainForm
             // 
@@ -493,7 +522,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(377, 675);
             Controls.Add(guna2Button1);
-            Controls.Add(guna2HtmlLabel1);
+            Controls.Add(LabelOutput);
             Controls.Add(ButtonClear);
             Controls.Add(ButtonSquare);
             Controls.Add(ButtonRoot);
@@ -518,7 +547,6 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "MainForm";
             Text = "Form1";
-            Load += MainForm_Load;
             ResumeLayout(false);
         }
 
@@ -545,7 +573,7 @@
         private Guna.UI2.WinForms.Guna2Button ButtonThree;
         private Guna.UI2.WinForms.Guna2Button ButtonOne;
         private Guna.UI2.WinForms.Guna2Button ButtonExecute;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelOutput;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
