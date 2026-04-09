@@ -157,6 +157,7 @@
             ButtonSeparator.ShadowDecoration.CustomizableEdges = customizableEdges38;
             ButtonSeparator.Size = new Size(88, 71);
             ButtonSeparator.TabIndex = 9;
+            ButtonSeparator.Click += _SeparatorHandler;
             // 
             // ButtonExecute
             // 

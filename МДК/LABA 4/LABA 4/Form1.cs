@@ -96,7 +96,6 @@ namespace LABA_4
             }
             else
             {
-                MessageBox.Show($"Кнопка: {SendButton.Name}");
                 throw new ArgumentException("В словарь пришло чё то не то!");
             }
         }
@@ -154,8 +153,12 @@ namespace LABA_4
                 default:
                     throw new InvalidOperationException($"Неизвестная операция: {_SelectOperation}");
             }
+        }
 
-            _SelectOperation = null;
+        private void _SeparatorHandler(object sender, EventArgs e)
+        {
+            _LabelText.Append(",");
+            _UpdateLabelText();
         }
 
         private void _PreparationExecute()
