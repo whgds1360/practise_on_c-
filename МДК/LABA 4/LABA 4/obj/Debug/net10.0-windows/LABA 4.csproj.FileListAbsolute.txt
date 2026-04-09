@@ -21,3 +21,26 @@ E:\practise_on_c-\МДК\LABA 4\LABA 4\obj\Debug\net10.0-windows\refint\LABA 4.d
 E:\practise_on_c-\МДК\LABA 4\LABA 4\obj\Debug\net10.0-windows\LABA 4.pdb
 E:\practise_on_c-\МДК\LABA 4\LABA 4\obj\Debug\net10.0-windows\LABA 4.genruntimeconfig.cache
 E:\practise_on_c-\МДК\LABA 4\LABA 4\obj\Debug\net10.0-windows\ref\LABA 4.dll
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\LABA 4.exe
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\LABA 4.deps.json
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\LABA 4.runtimeconfig.json
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\LABA 4.dll
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\LABA 4.pdb
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\Guna.UI2.dll
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\System.Management.dll
+E:\practise_on_c-\МДК\Calculator\LABA 4\bin\Debug\net10.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.csproj.AssemblyReference.cache
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA_4.MainForm.resources
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA_4.Properties.Resources.resources
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.csproj.GenerateResource.cache
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.GeneratedMSBuildEditorConfig.editorconfig
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.AssemblyInfoInputs.cache
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.AssemblyInfo.cs
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.csproj.CoreCompileInputs.cache
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.sourcelink.json
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.csproj.Up2Date
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.dll
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\refint\LABA 4.dll
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.pdb
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\LABA 4.genruntimeconfig.cache
+E:\practise_on_c-\МДК\Calculator\LABA 4\obj\Debug\net10.0-windows\ref\LABA 4.dll
