@@ -32,7 +32,7 @@ namespace LABA_4
         {
             Guna2Button SendButton;
 
-            /*Сделал что бы точно исключить момент неправильной привязки*/
+            //Сделал что бы точно исключить момент неправильной привязки
             if (sender != null && sender is Guna2Button)
             {
                 SendButton = (Guna2Button)sender;
@@ -71,10 +71,12 @@ namespace LABA_4
                     }
 
                 case "ButtonClear":
-                    {
-                        _LabelText = _LabelText.Remove(_LabelText.Length - 1, 1);
-                        _UpdateLabelText();
-
+                    {   
+                        if (_LabelText.Length != 0)
+                        {
+                            _LabelText = _LabelText.Remove(_LabelText.Length - 1, 1);
+                            _UpdateLabelText();
+                        }
                         break;
                     }
             }
