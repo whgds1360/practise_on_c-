@@ -95,6 +95,7 @@
             ButtonClearAll = new Guna.UI2.WinForms.Guna2Button();
             LabelOutput = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            LabelPreResult = new Guna.UI2.WinForms.Guna2HtmlLabel();
             SuspendLayout();
             // 
             // BorderlessFormMain
@@ -515,6 +516,18 @@
             guna2Button1.Text = "✖";
             guna2Button1.Click += _CloseHandler;
             // 
+            // LabelPreResult
+            // 
+            LabelPreResult.AutoSize = false;
+            LabelPreResult.BackColor = Color.Transparent;
+            LabelPreResult.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            LabelPreResult.ForeColor = Color.Gray;
+            LabelPreResult.Location = new Point(12, 118);
+            LabelPreResult.Name = "LabelPreResult";
+            LabelPreResult.Size = new Size(353, 39);
+            LabelPreResult.TabIndex = 30;
+            LabelPreResult.TextAlignment = ContentAlignment.TopRight;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -522,6 +535,7 @@
             BackColor = SystemColors.Control;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(377, 675);
+            Controls.Add(LabelPreResult);
             Controls.Add(guna2Button1);
             Controls.Add(LabelOutput);
             Controls.Add(ButtonClear);
@@ -546,6 +560,8 @@
             Controls.Add(ButtonZero);
             ForeColor = Color.Transparent;
             FormBorderStyle = FormBorderStyle.None;
+            MaximumSize = new Size(377, 675);
+            MinimumSize = new Size(377, 675);
             Name = "MainForm";
             Text = "Form1";
             ResumeLayout(false);
@@ -576,5 +592,6 @@
         private Guna.UI2.WinForms.Guna2Button ButtonExecute;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelOutput;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelPreResult;
     }
 }
