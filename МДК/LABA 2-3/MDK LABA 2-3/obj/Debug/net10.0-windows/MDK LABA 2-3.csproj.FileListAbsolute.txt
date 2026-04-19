@@ -24,3 +24,29 @@ E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\ref
 E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form2.resources
 E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form3.resources
 E:\practise_on_c-\МДК\MDK LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form4.resources
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\MDK LABA 2-3.exe
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\MDK LABA 2-3.deps.json
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\MDK LABA 2-3.runtimeconfig.json
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\MDK LABA 2-3.dll
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\MDK LABA 2-3.pdb
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\Guna.UI2.dll
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\System.Management.dll
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\bin\Debug\net10.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.csproj.AssemblyReference.cache
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form1.resources
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form2.resources
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form3.resources
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Form4.resources
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK_LABA_2_3.Properties.Resources.resources
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.csproj.GenerateResource.cache
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.GeneratedMSBuildEditorConfig.editorconfig
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.AssemblyInfoInputs.cache
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.AssemblyInfo.cs
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.csproj.CoreCompileInputs.cache
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.sourcelink.json
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA.86F158D6.Up2Date
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.dll
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\refint\MDK LABA 2-3.dll
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.pdb
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\MDK LABA 2-3.genruntimeconfig.cache
+E:\practise_on_c-\МДК\LABA 2-3\MDK LABA 2-3\obj\Debug\net10.0-windows\ref\MDK LABA 2-3.dll

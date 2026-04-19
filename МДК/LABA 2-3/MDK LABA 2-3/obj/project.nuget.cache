@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ytiZjRh7dUA=",
+  "dgSpecHash": "blj9KYyipNc=",
   "success": true,
-  "projectFilePath": "E:\\practise_on_c-\\МДК\\MDK LABA 2-3\\MDK LABA 2-3\\MDK LABA 2-3.csproj",
+  "projectFilePath": "E:\\practise_on_c-\\МДК\\LABA 2-3\\MDK LABA 2-3\\MDK LABA 2-3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxpr\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
     "C:\\Users\\maxpr\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"

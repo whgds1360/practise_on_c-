@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\practise_on_c-\\МДК\\Calculator\\LABA 4\\LABA 4.csproj": {}
+    "E:\\practise_on_c-\\МДК\\LABA 4\\LABA 4\\LABA 4.csproj": {}
   },
   "projects": {
-    "E:\\practise_on_c-\\МДК\\Calculator\\LABA 4\\LABA 4.csproj": {
+    "E:\\practise_on_c-\\МДК\\LABA 4\\LABA 4\\LABA 4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\practise_on_c-\\МДК\\Calculator\\LABA 4\\LABA 4.csproj",
+        "projectUniqueName": "E:\\practise_on_c-\\МДК\\LABA 4\\LABA 4\\LABA 4.csproj",
         "projectName": "LABA 4",
-        "projectPath": "E:\\practise_on_c-\\МДК\\Calculator\\LABA 4\\LABA 4.csproj",
+        "projectPath": "E:\\practise_on_c-\\МДК\\LABA 4\\LABA 4\\LABA 4.csproj",
         "packagesPath": "C:\\Users\\maxpr\\.nuget\\packages\\",
-        "outputPath": "E:\\practise_on_c-\\МДК\\Calculator\\LABA 4\\obj\\",
+        "outputPath": "E:\\practise_on_c-\\МДК\\LABA 4\\LABA 4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maxpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -25,7 +25,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows7.0": {
+          "net10.0-windows": {
+            "framework": "net10.0-windows7.0",
             "targetAlias": "net10.0-windows",
             "projectReferences": {}
           }
@@ -43,7 +44,8 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "dependencies": {
             "Guna.UI2.WinForms": {

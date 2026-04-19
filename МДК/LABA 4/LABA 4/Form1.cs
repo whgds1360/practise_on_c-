@@ -7,9 +7,10 @@ namespace LABA_4
     public partial class MainForm : Form
     {
         private StringBuilder _LabelText = new StringBuilder();
-        private double _FirstNumber;
-        private double _LastNumber;
+        private double _FirstNumber = 0;
+        private double _LastNumber = 0;
         private string _SelectOperation;
+        private int _CountOfCallFunction = 0;
 
         private readonly Dictionary<string, string> _ButtonOperations = new Dictionary<string, string>
         {
@@ -64,6 +65,8 @@ namespace LABA_4
 
                         (_FirstNumber, _LastNumber) = (0, 0);
 
+                        _NullingCount();
+
                         break;
                     }
 
@@ -98,12 +101,6 @@ namespace LABA_4
             {
                 throw new ArgumentException("В словарь пришло чё то не то!");
             }
-        }
-
-        private void _ExecuteHandler(object sender, EventArgs e)
-        {
-
-            double.TryParse(_LabelText.ToString(), out _LastNumber);
 
             switch (_SelectOperation)
             {
@@ -114,11 +111,40 @@ namespace LABA_4
                     break;
 
                 case "$":
-                    _LabelText.Clear();
-                    _LabelText.Append((Math.Sqrt(_FirstNumber)).ToString());
-                    _UpdateLabelText();
-                    break;
+                    if (_FirstNumber < 0)
+                    {
+                        _LabelText.Clear();
+                        _LabelText.Append("Error");
+                        _UpdateLabelText();
+                        break;
+                    }
+                    else
+                    {
+                        _LabelText.Clear();
+                        _LabelText.Append((Math.Sqrt(_FirstNumber)).ToString());
+                        _UpdateLabelText();
+                        break;
+                    }
 
+                default: 
+                    break;
+            }
+        }
+
+        private void _ExecuteHandler(object sender, EventArgs e)
+        {
+            _CountOfCallFunction += 1;
+            if (_CountOfCallFunction <= 1)
+            {
+                double.TryParse(_LabelText.ToString(), out _LastNumber);
+            }
+            else
+            {
+                double.TryParse(_LabelText.ToString(), out _FirstNumber);
+            }
+
+            switch (_SelectOperation)
+            {
                 case "/":
                     if (_LastNumber != 0)
                     {
@@ -128,7 +154,9 @@ namespace LABA_4
                     }
                     else
                     {
-                        throw new ArgumentException("Деление на ноль!");
+                        _LabelText.Clear(); 
+                        _LabelText.Append("Error");
+                        _UpdateLabelText();
                     }
                     break;
 
@@ -151,8 +179,13 @@ namespace LABA_4
                     break;
 
                 default:
-                    throw new InvalidOperationException($"Неизвестная операция: {_SelectOperation}");
+                    break;
             }
+        }
+        
+        private void _NullingCount()
+        {
+            _CountOfCallFunction = 0;
         }
 
         private void _SeparatorHandler(object sender, EventArgs e)
