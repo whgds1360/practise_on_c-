@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="MainForm">
+    <file>Github.png</file>
+    <file>BackGround.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

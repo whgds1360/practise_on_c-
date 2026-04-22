@@ -1,6 +1,7 @@
 from core.core import Core
 from PyQt6 import QtWidgets
 import sys
+from ui.resources import *
 
 
 if __name__ == "__main__":
