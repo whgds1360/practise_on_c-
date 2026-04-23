@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wTB6fTcYWNU=",
+  "dgSpecHash": "bfDbkgHYayw=",
   "success": true,
-  "projectFilePath": "E:\\practise_on_c-\\МДК\\Weather\\Weather\\Weather.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\practise_on_c-\\MDK\\LABA 5\\Weather\\Weather\\Weather.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maxpr\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
+    "C:\\Users\\maxpr\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

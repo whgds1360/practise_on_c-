@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
+      "Weather/1.0.0": {
+        "dependencies": {
+          "Guna.UI2.WinForms": "2.0.4.7"
+        },
+        "runtime": {
+          "Weather.dll": {}
+        }
+      },
       "Guna.UI2.WinForms/2.0.4.7": {
         "dependencies": {
           "System.Management": "7.0.0"
@@ -36,6 +44,11 @@
     }
   },
   "libraries": {
+    "Weather/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Guna.UI2.WinForms/2.0.4.7": {
       "type": "package",
       "serviceable": true,
