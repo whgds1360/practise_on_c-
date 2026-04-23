@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="MainForm">
+    <file>ExecuteButton.png</file>
+    <file>BackGround.png</file>
+    <file>InputLine.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>
