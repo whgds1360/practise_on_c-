@@ -87,18 +87,21 @@ border-radius: 35px;</string>
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>16</pointsize>
+      <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: white;
+     <string notr="true">color: white;
 background-image: url(:/MainForm/InputLine.png);
 border-radius: 35px;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLineEdit" name="InputLine">
@@ -113,7 +116,7 @@ border-radius: 35px;</string>
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>24</pointsize>
+      <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>

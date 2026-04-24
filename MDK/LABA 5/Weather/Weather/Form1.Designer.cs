@@ -133,22 +133,24 @@ namespace Weather
             // 
             // CloseButton
             // 
+            CloseButton.BackColor = Color.Transparent;
+            CloseButton.BorderRadius = 119;
             CloseButton.CustomizableEdges = customizableEdges1;
             CloseButton.DisabledState.BorderColor = Color.DarkGray;
             CloseButton.DisabledState.CustomBorderColor = Color.DarkGray;
             CloseButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             CloseButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            CloseButton.FillColor = Color.Teal;
+            CloseButton.FillColor = Color.Transparent;
             CloseButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
             CloseButton.ForeColor = Color.White;
+            CloseButton.Image = (Image)resources.GetObject("CloseButton.Image");
             CloseButton.ImageSize = new Size(45, 45);
-            CloseButton.Location = new Point(433, 9);
+            CloseButton.Location = new Point(419, 9);
             CloseButton.Margin = new Padding(0);
             CloseButton.Name = "CloseButton";
             CloseButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            CloseButton.Size = new Size(38, 35);
+            CloseButton.Size = new Size(52, 45);
             CloseButton.TabIndex = 4;
-            CloseButton.Text = "✖";
             CloseButton.Click += guna2Button1_Click;
             // 
             // MainForm
