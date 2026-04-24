@@ -18,6 +18,7 @@ namespace Weather
         public MainForm()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private async void ExecuteHandler(object sender, EventArgs e)
@@ -64,12 +65,17 @@ namespace Weather
             string json = await response.Content.ReadAsStringAsync();
 
             using JsonDocument doc = JsonDocument.Parse(json);
-           
+
             double temperature = doc.RootElement.GetProperty("current_weather").GetProperty("temperature").GetDouble();
 
             string result = $"Температура {temperature} °C";
 
             OutPutLabel.Text = result;
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
