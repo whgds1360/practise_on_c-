@@ -30,6 +30,13 @@
    <div align="center">
     <img src="https://github.com/whgds1360/practise_on_c-/blob/main/screenshots/LABA%204.png?raw=true" alt="LABA 4">
    </div>
+
+4. **Приложение погода WinForms + Guna 2 Framework** 
+   Приложение погоды работающий на HttpClient с OpenMeteo api
+   Использован фреймворк **Guna UI 2** (анимации, кастомные кнопки, панели, графики, темы и т.д.).
+   <div align="center">
+    <img src="https://github.com/whgds1360/practise_on_c-/blob/main/screenshots/LABA%205.png?raw=true" alt="LABA 5">
+   </div>
 ---
 
 ## 🛠 Технологии и инструменты
@@ -38,7 +45,7 @@
 - **Фреймворк:** .NET Framework / .NET (Windows Forms)  
 - **UI:**  
   - Стандартный WinForms  
-  - Guna.UI2.WinForms (для второго проекта)  
+  - Guna.UI2.WinForms (для второго проекта)
 - **IDE:** Visual Studio
 - **Дополнительно:** работа с событиями, компонентами, ресурсами
 
@@ -48,7 +55,8 @@
 
 <pre>
 practise_on_c#/
-├── МДК/          
+├── МДК/ 
+│   ├── LABA 5/
 │   ├── LABA 4/
 │   ├── LABA 2-3/
 │   └── LABA 1/
