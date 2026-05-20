@@ -62,7 +62,8 @@
 
 <pre>
 practise_on_c#/
-├── МДК/ 
+├── МДК/
+│   ├── LABA 6/
 │   ├── LABA 5/
 │   ├── LABA 4/
 │   ├── LABA 2-3/
