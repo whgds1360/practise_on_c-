@@ -37,6 +37,13 @@
    <div align="center">
     <img src="https://github.com/whgds1360/practise_on_c-/blob/main/screenshots/LABA%205.png?raw=true" alt="LABA 5">
    </div>
+
+5. **Приложение для авторизации + Guna 2 Framework** 
+   Приложение погоды работающий на драйвере Npgsql и СУБД PostgreSQL
+   Использован фреймворк **Guna UI 2** (анимации, кастомные кнопки, панели, графики, темы и т.д.).
+   <div align="center">
+    <img src="https://github.com/whgds1360/practise_on_c-/blob/main/screenshots/LABA%206.png?raw=true" alt="LABA 6">
+   </div>
 ---
 
 ## 🛠 Технологии и инструменты
