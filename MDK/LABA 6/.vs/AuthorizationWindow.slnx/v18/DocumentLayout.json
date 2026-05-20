@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|e:\\practise_on_c-\\mdk\\authorizationwindow\\authorizationwindow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|solutionrelative:authorizationwindow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|e:\\practise_on_c-\\mdk\\authorizationwindow\\authorizationwindow\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|solutionrelative:authorizationwindow\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|e:\\practise_on_c-\\mdk\\authorizationwindow\\authorizationwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|solutionrelative:authorizationwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|e:\\practise_on_c-\\mdk\\authorizationwindow\\authorizationwindow\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|solutionrelative:authorizationwindow\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|e:\\practise_on_c-\\mdk\\authorizationwindow\\authorizationwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|solutionrelative:authorizationwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|e:\\practise_on_c-\\mdk\\authorizationwindow\\authorizationwindow\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59483988-757A-4B91-B9ED-2C7D08419666}|AuthorizationWindow\\AuthorizationWindow.csproj|solutionrelative:authorizationwindow\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Form1.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow\\Form1.cs",
+              "ToolTip": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "AuthorizationWindow\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:22:30.603Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow\\Form1.Designer.cs",
+              "ToolTip": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Form1.Designer.cs",
+              "RelativeToolTip": "AuthorizationWindow\\Form1.Designer.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAArwAsBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:22:10.111Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Program.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow\\Program.cs",
+              "ToolTip": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Program.cs",
+              "RelativeToolTip": "AuthorizationWindow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:15:32.323Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Form1.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow\\Form1.cs",
+              "ToolTip": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Form1.cs",
+              "RelativeToolTip": "AuthorizationWindow\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:08:00.261Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Models.cs",
+              "DocumentMoniker": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Models.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow\\Models.cs",
+              "ToolTip": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\Models.cs",
+              "RelativeToolTip": "AuthorizationWindow\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:09:11.542Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\DataBase.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow\\DataBase.cs",
+              "ToolTip": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\DataBase.cs",
+              "RelativeToolTip": "AuthorizationWindow\\DataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T17:09:03.717Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
