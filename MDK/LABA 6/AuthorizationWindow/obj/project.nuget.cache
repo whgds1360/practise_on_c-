@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xmrRCit4aIU=",
+  "dgSpecHash": "z4tjvm2IE0o=",
   "success": true,
-  "projectFilePath": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\AuthorizationWindow.csproj",
+  "projectFilePath": "E:\\practise_on_c-\\MDK\\LABA 6\\AuthorizationWindow\\AuthorizationWindow.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxpr\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
     "C:\\Users\\maxpr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

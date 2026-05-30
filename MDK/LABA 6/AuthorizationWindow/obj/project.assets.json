@@ -2700,11 +2700,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\AuthorizationWindow.csproj",
+      "projectUniqueName": "E:\\practise_on_c-\\MDK\\LABA 6\\AuthorizationWindow\\AuthorizationWindow.csproj",
       "projectName": "AuthorizationWindow",
-      "projectPath": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\AuthorizationWindow.csproj",
+      "projectPath": "E:\\practise_on_c-\\MDK\\LABA 6\\AuthorizationWindow\\AuthorizationWindow.csproj",
       "packagesPath": "C:\\Users\\maxpr\\.nuget\\packages\\",
-      "outputPath": "E:\\practise_on_c-\\MDK\\AuthorizationWindow\\AuthorizationWindow\\obj\\",
+      "outputPath": "E:\\practise_on_c-\\MDK\\LABA 6\\AuthorizationWindow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maxpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
