@@ -33,4 +33,5 @@ E:\practise_on_c-\MDK\LABA 7\CarManager\bin\Debug\net10.0-windows\Npgsql.dll
 E:\practise_on_c-\MDK\LABA 7\CarManager\bin\Debug\net10.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 E:\practise_on_c-\MDK\LABA 7\CarManager\obj\Debug\net10.0-windows\CarManager.csproj.AssemblyReference.cache
 E:\practise_on_c-\MDK\LABA 7\CarManager\obj\Debug\net10.0-windows\CarManager.csproj.Up2Date
-E:\practise_on_c-\MDK\LABA 7\CarManager\obj\Debug\net10.0-windows\CarManager.RecordForm.resources
+E:\practise_on_c-\MDK\LABA 7\CarManager\obj\Debug\net10.0-windows\CarManager.AddRecordForm.resources
+E:\practise_on_c-\MDK\LABA 7\CarManager\obj\Debug\net10.0-windows\CarManager.DelRecordForm.resources

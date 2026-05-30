@@ -1,6 +1,6 @@
 ﻿namespace CarManager
 {
-    partial class RecordForm
+    partial class AddRecordForm
     {
         /// <summary>
         /// Required designer variable.

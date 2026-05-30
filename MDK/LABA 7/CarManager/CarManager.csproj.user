@@ -4,10 +4,13 @@
     <Compile Update="DataBaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="DelRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="RecordForm.cs">
+    <Compile Update="AddRecordForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

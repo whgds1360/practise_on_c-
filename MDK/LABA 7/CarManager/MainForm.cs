@@ -3,7 +3,8 @@ namespace CarManager;
 public partial class MainForm : Form
 {
     public DataBaseForm dataBaseForm = new DataBaseForm();
-    public RecordForm recordForm = new RecordForm();
+    public AddRecordForm addrecordForm = new AddRecordForm();
+    public DelRecordForm delrecordForm = new DelRecordForm();
 
     public string Port;
     public string Host;
@@ -30,17 +31,31 @@ public partial class MainForm : Form
         dataBaseForm.Show();
     }
 
-    private void ShowMenuRecord(object sender, EventArgs e)
+    private void ShowMenuAddRecord(object sender, EventArgs e)
     {
-        recordForm.TopLevel = false;
-        recordForm.Dock = DockStyle.Fill;
+        addrecordForm.TopLevel = false;
+        addrecordForm.Dock = DockStyle.Fill;
 
         foreach (Control widget in panel3.Controls)
         {
             widget.Hide();
         }
 
-        panel3.Controls.Add(recordForm);
-        recordForm.Show();
+        panel3.Controls.Add(addrecordForm);
+        addrecordForm.Show();
+    }
+
+    private void ShowMenuDelRecord(object sender, EventArgs e)
+    {
+        delrecordForm.TopLevel = false;
+        delrecordForm.Dock = DockStyle.Fill;
+
+        foreach (Control widget in panel3.Controls)
+        {
+            widget.Hide();
+        }
+
+        panel3.Controls.Add(delrecordForm);
+        delrecordForm.Show();
     }
 }

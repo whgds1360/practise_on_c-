@@ -45,6 +45,7 @@ partial class MainForm
         toolStrip1 = new ToolStrip();
         toolStripButton1 = new ToolStripButton();
         toolStripButton2 = new ToolStripButton();
+        удалитьЗаписьToolStripMenuItem = new ToolStripMenuItem();
         panel1.SuspendLayout();
         menuStrip1.SuspendLayout();
         panel2.SuspendLayout();
@@ -88,7 +89,7 @@ partial class MainForm
         // 
         // запToolStripMenuItem
         // 
-        запToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новаяЗаписьToolStripMenuItem });
+        запToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новаяЗаписьToolStripMenuItem, удалитьЗаписьToolStripMenuItem });
         запToolStripMenuItem.Name = "запToolStripMenuItem";
         запToolStripMenuItem.Size = new Size(58, 20);
         запToolStripMenuItem.Text = "Запись";
@@ -98,7 +99,7 @@ partial class MainForm
         новаяЗаписьToolStripMenuItem.Name = "новаяЗаписьToolStripMenuItem";
         новаяЗаписьToolStripMenuItem.Size = new Size(180, 22);
         новаяЗаписьToolStripMenuItem.Text = "Новая запись";
-        новаяЗаписьToolStripMenuItem.Click += ShowMenuRecord;
+        новаяЗаписьToolStripMenuItem.Click += ShowMenuAddRecord;
         // 
         // panel2
         // 
@@ -190,6 +191,13 @@ partial class MainForm
         toolStripButton2.Size = new Size(23, 22);
         toolStripButton2.Text = "toolStripButton2";
         // 
+        // удалитьЗаписьToolStripMenuItem
+        // 
+        удалитьЗаписьToolStripMenuItem.Name = "удалитьЗаписьToolStripMenuItem";
+        удалитьЗаписьToolStripMenuItem.Size = new Size(180, 22);
+        удалитьЗаписьToolStripMenuItem.Text = "Удалить запись";
+        удалитьЗаписьToolStripMenuItem.Click += ShowMenuDelRecord;
+        // 
         // MainForm
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
@@ -233,6 +241,7 @@ partial class MainForm
     private ToolStripButton toolStripButton1;
     private ToolStripButton toolStripButton2;
     private Label label1;
+    private ToolStripMenuItem удалитьЗаписьToolStripMenuItem;
     public static DataGridView dataGridView1;
     public static Label StatusLabel;
 }

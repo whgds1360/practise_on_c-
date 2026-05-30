@@ -1,8 +1,6 @@
-﻿using Microsoft.VisualBasic.ApplicationServices;
-
-namespace CarManager
+﻿namespace CarManager
 {
-    public partial class RecordForm : Form
+    public partial class AddRecordForm : Form
     {
         public static string? Port;
 
@@ -14,7 +12,7 @@ namespace CarManager
 
         public static string? Password;
 
-        public RecordForm()
+        public AddRecordForm()
         {
             InitializeComponent();
         }
