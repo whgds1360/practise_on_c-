@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\practise_on_c-\\MDK\\LABA 7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|e:\\practise_on_c-\\mdk\\laba 7\\carmanager\\recordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\recordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\practise_on_c-\\MDK\\LABA 7\\CarManager\\RecordForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarManager\\RecordForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|e:\\practise_on_c-\\mdk\\laba 7\\carmanager\\databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|e:\\practise_on_c-\\mdk\\laba 7\\carmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|E:\\practise_on_c-\\MDK\\LABA 7\\carmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -31,12 +31,12 @@
       "RelativeMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|e:\\practise_on_c-\\mdk\\laba 7\\carmanager\\databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|E:\\practise_on_c-\\MDK\\LABA 7\\carmanager\\databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\databaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|e:\\practise_on_c-\\mdk\\laba 7\\carmanager\\recordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4A64A32E-9B08-C294-45EE-FBA366220C20}|CarManager\\CarManager.csproj|solutionrelative:carmanager\\recordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\practise_on_c-\\mdk\\laba 7\\carmanager\\recordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carmanager\\recordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,8 +73,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T10:46:15.844Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -101,8 +100,7 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T10:51:30.981Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -112,11 +110,9 @@
               "RelativeDocumentMoniker": "CarManager\\RecordForm.cs",
               "ToolTip": "E:\\practise_on_c-\\MDK\\LABA 7\\CarManager\\RecordForm.cs",
               "RelativeToolTip": "CarManager\\RecordForm.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T12:45:09.563Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -129,8 +125,7 @@
               "ViewState": "AgIAANoAAAAAAAAAAAAkwO0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T12:49:33.516Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -145,8 +140,7 @@
               "ToolTip": "E:\\practise_on_c-\\MDK\\LABA 7\\CarManager\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "CarManager\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T13:11:19.133Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-05-30T13:11:19.133Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "ToolTip": "E:\\practise_on_c-\\MDK\\LABA 7\\CarManager\\RecordForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "CarManager\\RecordForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T12:40:34.465Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-05-30T12:40:34.465Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "ToolTip": "E:\\practise_on_c-\\MDK\\LABA 7\\CarManager\\DataBaseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "CarManager\\DataBaseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T11:01:12.929Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-05-30T11:01:12.929Z"
             }
           ]
         }
