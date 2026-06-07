@@ -35,6 +35,8 @@ partial class MainForm
         подключитьБДToolStripMenuItem = new ToolStripMenuItem();
         запToolStripMenuItem = new ToolStripMenuItem();
         новаяЗаписьToolStripMenuItem = new ToolStripMenuItem();
+        удалитьЗаписьToolStripMenuItem = new ToolStripMenuItem();
+        найтиToolStripMenuItem = new ToolStripMenuItem();
         panel2 = new Panel();
         dataGridView1 = new DataGridView();
         panel3 = new Panel();
@@ -45,7 +47,6 @@ partial class MainForm
         toolStrip1 = new ToolStrip();
         toolStripButton1 = new ToolStripButton();
         toolStripButton2 = new ToolStripButton();
-        удалитьЗаписьToolStripMenuItem = new ToolStripMenuItem();
         panel1.SuspendLayout();
         menuStrip1.SuspendLayout();
         panel2.SuspendLayout();
@@ -89,7 +90,7 @@ partial class MainForm
         // 
         // запToolStripMenuItem
         // 
-        запToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новаяЗаписьToolStripMenuItem, удалитьЗаписьToolStripMenuItem });
+        запToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новаяЗаписьToolStripMenuItem, удалитьЗаписьToolStripMenuItem, найтиToolStripMenuItem });
         запToolStripMenuItem.Name = "запToolStripMenuItem";
         запToolStripMenuItem.Size = new Size(58, 20);
         запToolStripMenuItem.Text = "Запись";
@@ -97,9 +98,23 @@ partial class MainForm
         // новаяЗаписьToolStripMenuItem
         // 
         новаяЗаписьToolStripMenuItem.Name = "новаяЗаписьToolStripMenuItem";
-        новаяЗаписьToolStripMenuItem.Size = new Size(180, 22);
+        новаяЗаписьToolStripMenuItem.Size = new Size(158, 22);
         новаяЗаписьToolStripMenuItem.Text = "Новая запись";
         новаяЗаписьToolStripMenuItem.Click += ShowMenuAddRecord;
+        // 
+        // удалитьЗаписьToolStripMenuItem
+        // 
+        удалитьЗаписьToolStripMenuItem.Name = "удалитьЗаписьToolStripMenuItem";
+        удалитьЗаписьToolStripMenuItem.Size = new Size(158, 22);
+        удалитьЗаписьToolStripMenuItem.Text = "Удалить запись";
+        удалитьЗаписьToolStripMenuItem.Click += ShowMenuDelRecord;
+        // 
+        // найтиToolStripMenuItem
+        // 
+        найтиToolStripMenuItem.Name = "найтиToolStripMenuItem";
+        найтиToolStripMenuItem.Size = new Size(158, 22);
+        найтиToolStripMenuItem.Text = "Найти";
+        найтиToolStripMenuItem.Click += ShowMenuSearch;
         // 
         // panel2
         // 
@@ -180,7 +195,8 @@ partial class MainForm
         toolStripButton1.ImageTransparentColor = Color.Magenta;
         toolStripButton1.Name = "toolStripButton1";
         toolStripButton1.Size = new Size(23, 22);
-        toolStripButton1.Text = "toolStripButton1";
+        toolStripButton1.Text = "Показать актуальные данные";
+        toolStripButton1.Click += VisibleUpToDateData;
         // 
         // toolStripButton2
         // 
@@ -189,14 +205,8 @@ partial class MainForm
         toolStripButton2.ImageTransparentColor = Color.Magenta;
         toolStripButton2.Name = "toolStripButton2";
         toolStripButton2.Size = new Size(23, 22);
-        toolStripButton2.Text = "toolStripButton2";
-        // 
-        // удалитьЗаписьToolStripMenuItem
-        // 
-        удалитьЗаписьToolStripMenuItem.Name = "удалитьЗаписьToolStripMenuItem";
-        удалитьЗаписьToolStripMenuItem.Size = new Size(180, 22);
-        удалитьЗаписьToolStripMenuItem.Text = "Удалить запись";
-        удалитьЗаписьToolStripMenuItem.Click += ShowMenuDelRecord;
+        toolStripButton2.Text = "Cортировка";
+        toolStripButton2.Click += ShowMenuSort;
         // 
         // MainForm
         // 
@@ -242,6 +252,7 @@ partial class MainForm
     private ToolStripButton toolStripButton2;
     private Label label1;
     private ToolStripMenuItem удалитьЗаписьToolStripMenuItem;
+    private ToolStripMenuItem найтиToolStripMenuItem;
     public static DataGridView dataGridView1;
     public static Label StatusLabel;
 }

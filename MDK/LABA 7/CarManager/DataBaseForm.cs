@@ -36,8 +36,11 @@
 
                     context.Ensure();
 
+                    MainForm.ParsingData(port: Port, host: Host, dbname: DataBaseName, username: UserName, password: Password);
                     AddRecordForm.ParsingData(port: Port, host: Host, dbname: DataBaseName, username: UserName, password: Password);
                     DelRecordForm.ParsingData(port: Port, host: Host, dbname: DataBaseName, username: UserName, password: Password);
+                    SearchForm.ParsingData(port: Port, host: Host, dbname: DataBaseName, username: UserName, password: Password);
+                    SortForm.ParsingData(port: Port, host: Host, dbname: DataBaseName, username: UserName, password: Password);
 
                     MainForm.dataGridView1.DataSource = context.Cars.ToList();
                 }

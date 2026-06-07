@@ -16,5 +16,11 @@
     <Compile Update="RecordForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SortForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
